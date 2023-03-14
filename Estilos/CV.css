@@ -1,0 +1,64 @@
+.img__div{
+    display: flex;
+    justify-content:center;
+    background: #0c0818;
+}
+.img {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: #0c0818;
+}
+.cv-pablo__pablo {
+    color: #8f1a0a8f;
+}
+.datos-personales__h2 , .objetivos__h2 , .text__h1 {
+    text-align: center;
+    font-family:'Lobster', cursive;
+    color: #0c0818;
+    border-radius: 25px;
+    background: #adc7e9;
+    padding: 20px;
+    box-shadow: 2px 4px 15px 0 #0c0818;
+}
+.lista__li, .lista {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+   
+    
+}
+.ex-laboral , .calificaciones__h2, .formacion__h2{
+
+    font-family: 'Lobster', cursive;
+}
+
+.acordeon{
+    background-color: #adc7e9;
+    color:#141111;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+.active, .acordeon:hover{
+    background-color: #7171f3;
+}
+.panel{
+    padding:10px 20px;
+    display: none;
+    overflow: hidden;
+}
+.enlace:hover{
+    background-color:rgb(88, 123, 240);
+}
+.enlace{
+    display: inline-block;
+    border-radius: 20%;
+    background-color: #0d0ded;
+    text-decoration:none;
+    color: #f8f3f3;
+    padding: 0px 15px;
+    border-style: solid;
+}
